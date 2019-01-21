@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Medicorum.Core.Entities
+namespace Medicorum.Core.Entities.Entities
 {
     public class PersonMedicalEventType
     {

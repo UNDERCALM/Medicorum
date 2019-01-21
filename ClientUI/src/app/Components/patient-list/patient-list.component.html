@@ -1,0 +1,14 @@
+
+<div class="panel panel-default">
+  <div class="panel-heading"><h3>Patients List</h3></div>
+  <div class="panel-body">
+    <ul class="list-group" *ngIf="patientModel">
+      <li *ngFor="let item of patientModel.patients" (click)="goToPatient(item.patientId)" class="list-group-item list-group-item-action waves-light" mdbWavesEffect>
+        <span class="badge" ng-if="item.children > 0"></span>
+        {{item.firstName}} {{item.lastName}}, {{item.birthDate |  date:'MM/dd/yyyy'}}, {{item.gender}}
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
