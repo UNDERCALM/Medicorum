@@ -1,12 +1,10 @@
 ﻿using MediatR;
-using Medicorum.Core.Interactors.Patients.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Medicorum.Core.Interactors.MedicalHistory.Models;
 
 namespace Medicorum.Core.Interactors.MedicalHistory.Queries
 {
-    class GetPatientHistoryQuery : IRequest<MedicalHistoryModel>
+    public class GetPatientHistoryQuery : IRequest<MedicalHistoryModel>
     {
+        public int Id { get; set; }
     }
 }

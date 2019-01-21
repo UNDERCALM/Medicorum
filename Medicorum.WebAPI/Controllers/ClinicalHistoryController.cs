@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
-using Medicorum.Core.Interactors.Patients.Queries.PatientHistory;
+using Medicorum.Core.Interactors.MedicalHistory.Models;
+using Medicorum.Core.Interactors.MedicalHistory.Queries;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Medicorum.WebAPI.Controllers
@@ -17,7 +18,7 @@ namespace Medicorum.WebAPI.Controllers
    
         // GET: api/ClinicalHistory/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<PatientHistoryViewModel>> Get(int id)
+        public async Task<ActionResult<MedicalHistoryModel>> Get(int id)
         {
             return Ok(await Mediator.Send(new GetPatientHistoryQuery { Id = id }));
         }

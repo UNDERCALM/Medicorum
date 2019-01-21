@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Medicorum.Core.Interactors.Patients.Queries.Model;
 
 namespace Medicorum.Core.Interactors.Patients.Queries.PatientList
 {

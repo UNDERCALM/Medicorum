@@ -3,7 +3,7 @@ using AutoMapper;
 using Medicorum.Core.Entities.Entities;
 using Medicorum.Core.Interactors.Interfaces.Mapping;
 
-namespace Medicorum.Core.Interactors.Patients.Queries
+namespace Medicorum.Core.Interactors.Patients.Queries.Model
 {
     public class PatientDto : IHaveCustomMapping
     {

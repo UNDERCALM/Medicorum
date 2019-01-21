@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using Medicorum.Core.Entities.Entities;
-using Medicorum.Core.Interactors.Interfaces;
+using Medicorum.Core.Interactors.MedicalHistory.Models;
 
-namespace Medicorum.Core.Interactors.MedicalHistory.Models
+namespace Medicorum.Core.Interactors.Interfaces
 {
     public interface IPatient
     {

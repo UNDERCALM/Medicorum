@@ -1,10 +1,8 @@
-﻿using Medicorum.Core.Interactors.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Medicorum.Core.Interactors.Interfaces;
 
-namespace Medicorum.Core.Interactors.Patients.Models
+namespace Medicorum.Core.Interactors.MedicalHistory.Models
 {
     public class MedicalHistoryModel
     {
@@ -14,9 +12,9 @@ namespace Medicorum.Core.Interactors.Patients.Models
         public string LastName { get; set; }
         public string SSID { get; set; }
         public string DriverLicenseNumber { get; set; }
-        public DateTime BithDate { get; set; }
+        public DateTime BirthDate { get; set; }
         public string Gender { get; set; }
-        IQueryable<IMedicalHistoryItem> MedicalHistoryItems { get; set; }
+        public List<IMedicalHistoryItem> MedicalHistoryItems { get; set; }
        
     }
 }

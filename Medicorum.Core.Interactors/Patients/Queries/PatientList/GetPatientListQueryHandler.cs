@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
+using Medicorum.Core.Interactors.Patients.Queries.Model;
 using Medicorum.Persistence;
 using Microsoft.EntityFrameworkCore;
 

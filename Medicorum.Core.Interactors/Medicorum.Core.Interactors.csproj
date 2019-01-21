@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <Folder Include="MedicalHistory\Commands\" />
+    <Folder Include="MedicalHistory\PatientHistory\" />
     <Folder Include="Patients\Commands\CreatePatient\" />
     <Folder Include="Patients\Commands\DeletePatient\" />
     <Folder Include="Patients\Commands\UpdatePatient\" />

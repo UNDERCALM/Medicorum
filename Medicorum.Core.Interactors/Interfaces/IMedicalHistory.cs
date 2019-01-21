@@ -1,4 +1,6 @@
 ﻿using System.Linq;
+using Medicorum.Core.Interactors.MedicalHistory.Models;
+
 namespace Medicorum.Core.Interactors.Interfaces
 {
     public interface IMedicalHistory
